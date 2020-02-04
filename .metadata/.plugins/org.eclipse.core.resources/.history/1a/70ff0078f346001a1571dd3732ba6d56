@@ -7,8 +7,6 @@ public class Prueba {
 		
 		System.out.println("Linea de prueba");
 		System.out.println("qwerty");
-		
-		System.out.println("nueva linea de codigo");
 
 	}
 
