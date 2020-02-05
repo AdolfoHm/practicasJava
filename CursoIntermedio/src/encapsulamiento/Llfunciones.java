@@ -1,6 +1,7 @@
 /*
  * Clase para las funciones lógicas de una lavadora
  */
+
 package encapsulamiento;
 
 public class Llfunciones {
@@ -68,6 +69,23 @@ public class Llfunciones {
 		if(secadoCompleto == 1) {
 			System.out.println("Tu ropa esta lista!");
 		}
+	}
+	
+	//Setter y Getter
+	public int getTipoDeRopa() {
+		return tipoRopa;
+	}
+	
+	public void setTipoDeRopa(int tipo) {
+		tipoRopa = tipo;
+	}
+
+	public int getSecadoCompleto() {
+		return secadoCompleto;
+	}
+
+	public void setSecadoCompleto(int secadoCompleto) {
+		this.secadoCompleto = secadoCompleto;
 	}
 	
 }

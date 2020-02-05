@@ -17,6 +17,8 @@ public class lavadora_uno {
 		int kilos = entrada.nextInt();
 		
 		Llfunciones mensajero = new Llfunciones(kilos, tipoDeRopa);
+		mensajero.setTipoDeRopa(2);
+		System.out.println("El tipo de Ropa es: " + mensajero.getTipoDeRopa());
 		mensajero.CicloFinalizado();
 
 	}
