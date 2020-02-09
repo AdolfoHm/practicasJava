@@ -1,0 +1,15 @@
+package cajeroAutomatico;
+
+import java.util.Scanner;
+
+public class Main extends Operaciones {
+	public static void main(String args[]) {
+		
+		Operaciones mensajero = new Operaciones();
+		mensajero.menu();
+		
+		
+		
+	}
+
+}

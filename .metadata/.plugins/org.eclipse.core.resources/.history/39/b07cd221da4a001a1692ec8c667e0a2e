@@ -1,0 +1,14 @@
+package cajeroAutomatico;
+
+public class Operaciones {
+	
+	public void menu() {
+		
+		System.out.println("-----------------------------------");
+		System.out.println("----- BIENVENIDO AL CAJERO-------- ");
+		System.out.println("-----------------------------------");
+		System.out.println("");
+		
+	}
+
+}

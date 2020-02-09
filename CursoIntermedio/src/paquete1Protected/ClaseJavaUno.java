@@ -6,7 +6,7 @@ public class ClaseJavaUno {
 	
 		Atributos_Metodos mensajero = new Atributos_Metodos();
 		mensajero.metodoAdolfo();
-	
+			
 	}
 
 }

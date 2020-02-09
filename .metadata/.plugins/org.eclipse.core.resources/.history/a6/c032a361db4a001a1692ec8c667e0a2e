@@ -1,0 +1,9 @@
+package cajeroClases;
+
+import java.util.Scanner;
+
+public class ClasePadre_Abstracta {
+	
+	protected int transacciones, retiro, deposito;
+
+}
