@@ -1,0 +1,10 @@
+package hilosParametros;
+
+public class ProcesoPrincipal {
+	public static void main(String args[]) {
+		
+		Proceso hilo1 = new Proceso();
+		
+	}
+
+}

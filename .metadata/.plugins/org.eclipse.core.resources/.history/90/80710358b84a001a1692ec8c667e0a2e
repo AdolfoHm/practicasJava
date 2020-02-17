@@ -1,8 +1,0 @@
-package herenciaMain;
-
-import herenciaOperaciones.claseHija_Suma;
-import herenciaOperaciones.claseHija_Resta;
-
-public class ClasePrincipal {
-
-}
