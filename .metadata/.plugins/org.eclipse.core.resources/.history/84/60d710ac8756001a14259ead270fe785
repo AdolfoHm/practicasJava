@@ -1,0 +1,16 @@
+package constructor;
+
+public class Principal {
+	
+	private static void main(String args[]) {
+		
+		SinConstructor mensajero = new SinConstructor();
+		mensajero.perdirNombre();
+		mensajero.imprimir();
+		
+//		ConConstructor mensajero = new ConConstructor();
+
+		
+	}
+
+}

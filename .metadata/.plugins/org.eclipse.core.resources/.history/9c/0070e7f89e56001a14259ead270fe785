@@ -1,0 +1,26 @@
+package mathDecimales;
+
+import java.text.DecimalFormat;
+
+public class ClasePrincipal {
+
+	public static void main(String[] args) {
+	
+		double numero = 2.00;
+		double raiz = Math.sqrt(numero);
+
+		System.out.println("La raiz cuadrada de " + numero + " es = " + raiz);
+		
+		// Utilizando la clase DecimalFormat
+		DecimalFormat df = new DecimalFormat("#.00");
+		System.out.println("La raiz cuadrada de " + numero + " es = " + df.format(raiz));
+		
+		// Utilizando String Format
+		System.out.println("La raiz cuadrada de " + numero + " es = " + String.format("%.4f", raiz));
+		
+		// Utilizando la clase Math y round
+		System.out.println("La raiz cuadrada de " + numero + " es = " + (double)Math.round(raiz * 100d)/100);
+
+	}
+
+}

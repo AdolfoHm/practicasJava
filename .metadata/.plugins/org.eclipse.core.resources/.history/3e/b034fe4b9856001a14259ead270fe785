@@ -1,0 +1,20 @@
+package claseMath;
+
+public class Trigonometricas {
+
+	public static void main(String[] args) {
+		
+		double resultado = 0.00;
+		double anguloEnGrados = 45;
+		double anguloEnRadianes = Math.toRadians(anguloEnGrados);
+		
+		// Seno
+		resultado = Math.sin(anguloEnRadianes);
+		System.out.println("Seno de " + anguloEnGrados + "° = " + resultado);
+		
+		// Coseno
+		
+
+	}
+
+}
