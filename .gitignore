@@ -39,9 +39,9 @@ Thumbs.db
 
 
 #Folders
-**/target/
-**/.project
-**/.classpath
-**/.settings/
-**/.gitignore
-/.metadata/
+/target/
+.project
+.classpath
+.settings/
+.gitignore
+.metadata/
